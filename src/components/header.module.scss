@@ -1,0 +1,40 @@
+.header {
+  padding: 1rem 0 2.5rem;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 50px;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.nav-item {
+  font-family: "Quattrocento Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #3db4e5;
+  text-decoration: none;
+  margin-right: 1.3rem;
+}
+
+.li {
+  display: inline;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  float: right;
+}
+
+.nav-item:hover {
+  color: #0b7cc1;
+}
+
+.active-nav-item {
+  color: #0f2c52;
+}
